@@ -1,3 +1,29 @@
+@font-face {
+    font-family: "Forum";
+    src: url("../assets/fonts/Forum-Regular.ttf");
+}
+  
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Thin.ttf");
+    line-height: 100;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Light.ttf");
+    line-height: 300;
+}
+
+html {
+    width: 1920px;
+}
+
 body {
     background: #030303;
 }
@@ -18,8 +44,6 @@ header {
     justify-content: space-between;
     width: 199px;
     height: 33px;
-
-    margin-top: 59px;
 }
 
 .logo img {
@@ -28,12 +52,7 @@ header {
 }
 
 .logo p {
-    width: 125px;
-    height: 31px;
-
-    margin: 0;
-
-    font-family: 'Forum';
+    font-family: "Forum";
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -47,6 +66,8 @@ header {
 
     border: 1px solid #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin: 0;
 }
 
 .menu {
@@ -55,35 +76,9 @@ header {
 
     width: 775px;
     height: 26px;
-    margin-top: 62px;
-    margin-left: 665px;
-}
-@font-face {
-    font-family: "Forum";
-    src: url("../assets/fonts/Forum-Regular.ttf");
-  }
-  
-@font-face {
-font-family: "Roboto";
-src: url("../assets/fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-font-family: "Roboto";
-src: url("../assets/fonts/Roboto-Thin.ttf");
-line-height: 100;
-}
-
-@font-face {
-font-family: "Roboto";
-src: url("../assets/fonts/Roboto-Light.ttf");
-line-height: 300;
 }
 
 .menu a {
-    /*width: 85px;
-    height: 26px;*/
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
@@ -93,5 +88,12 @@ line-height: 300;
 
     letter-spacing: 2px;
 
-    color: #FFFFFF;
+    color: #ffffff;
+}
+
+.welcome {
+    width: 1440px;
+    height: 810px;
+
+    
 }
