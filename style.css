@@ -58,6 +58,27 @@ header {
     margin-top: 62px;
     margin-left: 665px;
 }
+@font-face {
+    font-family: "Forum";
+    src: url("../assets/fonts/Forum-Regular.ttf");
+  }
+  
+@font-face {
+font-family: "Roboto";
+src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+font-family: "Roboto";
+src: url("../assets/fonts/Roboto-Thin.ttf");
+line-height: 100;
+}
+
+@font-face {
+font-family: "Roboto";
+src: url("../assets/fonts/Roboto-Light.ttf");
+line-height: 300;
+}
 
 .menu a {
     /*width: 85px;
