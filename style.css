@@ -243,3 +243,53 @@ header {
 
     color: #000000;
 }
+
+.explore {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 1440px;
+    height: 715px;
+
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.explore .description {
+    max-width: 660px;
+    padding-right: 55px;
+}
+
+.explore .description h2 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.explore .description p {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+
+    margin-bottom: 25px;
+
+    color: #ffffff;
+}
+  
+.explore .description span {
+    color: #caaa7d;
+}
+  
+.explore img {
+    padding-top: 10px;
+}
