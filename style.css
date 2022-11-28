@@ -95,12 +95,19 @@ header {
     width: 1440px;
     height: 810px;
 
+    background: url("/assets/img/mona-lisa.jpg");
+    background-repeat: no-repeat;
+    /* background-position: calc(50% + 352px) 100%; */
+    background-position: top right;
+
     margin: 0 auto;
 }
 
 .welcome-text {
     width: 598px;
     height: 388px;
+
+    margin-top: 150px;
 }
 
 .welcome-text h2 {
@@ -127,6 +134,9 @@ header {
 
     letter-spacing: 2px;
 
+    margin-top: 10px;
+    margin-bottom: 70px;
+
     color: #ffffff;
 }
 
@@ -145,4 +155,91 @@ header {
     letter-spacing: 2px;
 
     color: #ffffff;
+}
+
+.welcome-slider {
+    width: 600px;
+    height: 120px;
+
+    margin-left: 840px;
+    margin-top: 690px;
+
+    background: #030303;
+}
+
+.virtual-tour {
+    width: 1440px;
+    height: 1116px;
+
+    margin: 0 auto;
+    margin-top: 75px;
+
+    background: #DBDBDB;;
+}
+
+.virtual-tour h2 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #9D8665;
+}
+
+.tour-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 76px 60px;
+
+    width: 1440px;
+}
+
+.tour-card {
+    width: 440px;
+    height: 424px;
+}
+
+.tour-card h3 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.tour-card h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    color: #000000;
+
+    margin-bottom: 7px;
+}
+
+.tour-card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #000000;
 }
